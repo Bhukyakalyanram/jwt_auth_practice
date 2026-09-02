@@ -49,7 +49,7 @@ def handle_safe():
 
 
 @app.get("/test")
-def handle_safe():
+def handle_test():
     return "working"
 
 
