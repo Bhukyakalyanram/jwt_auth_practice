@@ -48,5 +48,10 @@ def handle_safe():
     return {"email": email}
 
 
+@app.get("/test")
+def handle_safe():
+    return "working"
+
+
 if __name__ == "__main__":
     app.run(debug=True)
